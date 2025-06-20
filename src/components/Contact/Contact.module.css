@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px 16px;
+  min-width: 350px;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name,
+.phone {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.phone {
+  font-size: 18px;
+}
+
+.delete {
+  padding: 6px 12px;
+  background-color: #e0e0e0;
+  border: 1px solid #999;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #d6d6d6;
+}

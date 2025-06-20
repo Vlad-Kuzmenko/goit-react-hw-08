@@ -1,0 +1,15 @@
+.wrapper {
+  margin-top: 20px;
+  width: 280px;
+}
+
+.title {
+  margin-bottom: 5px;
+}
+
+.text {
+  width: 280px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
