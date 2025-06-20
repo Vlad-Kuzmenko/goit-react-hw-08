@@ -30,7 +30,7 @@ export default function App() {
   ) : (
     <div className={s.app}>
       <AppBar />
-      <Suspense fallback={<p>Loading...</p>}>
+      <Suspense fallback={null}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route
