@@ -6,7 +6,7 @@ export default function HomePage() {
       <title>Welcome</title>
       <div className={s.container}>
         <h1 className={s.title}>
-          Task manager welcome page{" "}
+          We will help you keep your contacts in a safe place{" "}
           <span role="img" aria-label="Greeting icon">
             💁‍♀️
           </span>
