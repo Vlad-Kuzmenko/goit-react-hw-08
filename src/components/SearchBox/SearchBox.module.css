@@ -1,6 +1,10 @@
 .wrapper {
-  margin-top: 20px;
   width: 280px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .title {
